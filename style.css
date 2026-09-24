@@ -64,3 +64,43 @@ nav a:hover{
     background-color: orange;
     transform: scale(1.1);
 }
+
+.servicos {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.servicos h2 {
+    margin-bottom: 10px;
+}
+
+.servicos > p {
+    margin-bottom: 40px;
+}
+
+.cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.card{
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    transition: 0.3s ease;
+    min-height: 180px;
+}
+
+.card:hover{
+    transform: translateY(-5px);
+    color: blueviolet;
+}
+
+.card h3 {
+    font-size: 22px;
+    margin-bottom: 15px;
+}
