@@ -1,0 +1,28 @@
+body{
+    font-family: 'Courier New', Courier, monospace;
+    background-color: aliceblue;
+    color: indigo;
+    margin: 0px;
+}
+
+header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+nav a{
+    color: indigo;
+    text-decoration: none;
+}
+
+nav{
+    display: flex;
+    gap: 20px;
+}
+
+nav a:hover{
+    color: orange;
+    text-decoration: underline;
+}
