@@ -61,16 +61,17 @@ nav a:hover{
     font-size: 18px;
 }
 
-.hero button{
+.hero-button {
+    display: inline-block;
     background-color: indigo;
-    color: aliceblue;
+    color: white;
     border-radius: 8px;
-    border: none;
     padding: 12px 24px;
+    text-decoration: none;
     transition: 1s ease;
 }
 
-.hero button:hover{
+.hero-button:hover {
     background-color: orange;
     transform: scale(1.1);
 }
@@ -96,13 +97,15 @@ nav a:hover{
     margin: 0 auto;
 }
 
-.card{
+.card {
     background-color: white;
     padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
     transition: 0.3s ease;
     min-height: 180px;
+    display: flex;
+    flex-direction: column;
 }
 
 .card:hover{
@@ -113,6 +116,40 @@ nav a:hover{
 .card h3 {
     font-size: 22px;
     margin-bottom: 15px;
+}
+
+.card ul {
+    padding-left: 20px;
+    margin: 20px 0;
+    text-align: left;
+}
+
+.card li {
+    margin-bottom: 8px;
+    line-height: 1.5;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: auto;
+    padding: 10px 16px;
+    background-color: indigo;
+    color: white;
+    border-radius: 6px;
+    font-weight: bold;
+    text-decoration: none;
+    transition: 1s ease;
+}
+
+.card a:hover {
+    background-color: orange;
+    color: white;
+    transform: translateY(-2px);
+}
+
+.card a:focus {
+    outline: 3px solid orange;
+    outline-offset: 3px;
 }
 
 .sobre{
