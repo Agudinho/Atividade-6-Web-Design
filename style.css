@@ -104,3 +104,74 @@ nav a:hover{
     font-size: 22px;
     margin-bottom: 15px;
 }
+
+.sobre{
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.sobre h2 {
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.sobre p {
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}
+
+.contato {
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.contato form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.contato input,
+.contato textarea {
+    width: 100%;
+    padding: 12px;
+    margin-bottom: 15px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+}
+
+.contato label {
+    display: block;
+    margin-bottom: 5px;
+    text-align: left;
+}
+
+.contato textarea {
+    min-height: 150px;
+    resize: vertical;
+}
+
+.contato button {
+    background-color: indigo;
+    color: white;
+    border: none;
+    border-radius: 8px;
+    padding: 12px 24px;
+    cursor: pointer;
+    transition: 1s ease;
+}
+
+.contato button:hover {
+    background-color: orange;
+    transform: scale(1.05);
+}
+
+.contato h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.contato > p {
+    margin-bottom: 40px;
+}
