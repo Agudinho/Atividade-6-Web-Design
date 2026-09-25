@@ -188,3 +188,23 @@ footer p {
     margin: 0;
     font-size: 14px;
 }
+
+@media (max-width: 768px) {
+
+    .cards {
+        grid-template-columns: 1fr;
+    }
+
+    header {
+    flex-direction: column;
+    gap: 20px;
+    }
+
+    .hero {
+    padding: 60px 20px;
+    min-height: 300px;
+    }
+
+    
+
+}
