@@ -60,14 +60,164 @@
                 </div>
             </div>
         </section>
-        <section class="sobre" id="sobre">
 
-            <h2>Sobre a NexTech</h2>
+        <section class="diferenciais" id="diferenciais">
+
+            <h2>Por que escolher a NexTech?</h2>
 
             <p>
-                Somos uma empresa focada em soluções digitais para empresas que buscam
-                melhorar seus processos, otimizar tarefas e crescer através da tecnologia.
+                Trabalhamos para oferecer soluções digitais eficientes,
+                acessíveis e alinhadas às necessidades de cada empresa.
             </p>
+
+            <div class="diferenciais-lista">
+
+                <div class="diferencial">
+                    <h3>Atendimento personalizado</h3>
+
+                    <p>
+                        Entendemos os objetivos de cada cliente para desenvolver
+                        soluções adequadas à sua realidade.
+                    </p>
+                </div>
+
+                <div class="diferencial">
+                    <h3>Tecnologia acessível</h3>
+
+                    <p>
+                        Criamos projetos funcionais e acessíveis para empresas
+                        de diferentes tamanhos e segmentos.
+                    </p>
+                </div>
+
+                <div class="diferencial">
+                    <h3>Foco em resultados</h3>
+
+                    <p>
+                        Buscamos melhorar processos, economizar tempo e contribuir
+                        para o crescimento dos negócios.
+                    </p>
+                </div>
+
+                <div class="diferencial">
+                    <h3>Desenvolvimento responsável</h3>
+
+                    <p>
+                        Valorizamos organização, segurança e qualidade durante
+                        todas as etapas do desenvolvimento.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="processo" id="processo">
+
+            <h2>Como trabalhamos</h2>
+
+            <p>
+                Nosso processo é organizado para transformar uma necessidade
+                em uma solução digital funcional.
+            </p>
+
+            <div class="etapas">
+
+                <div class="etapa">
+                    <span>01</span>
+
+                    <h3>Entendimento</h3>
+
+                    <p>
+                        Conhecemos as necessidades da empresa e entendemos
+                        quais problemas precisam ser solucionados.
+                    </p>
+                </div>
+
+                <div class="etapa">
+                    <span>02</span>
+
+                    <h3>Planejamento</h3>
+
+                    <p>
+                        Definimos as funcionalidades, estrutura e objetivos
+                        necessários para o projeto.
+                    </p>
+                </div>
+
+                <div class="etapa">
+                    <span>03</span>
+
+                    <h3>Desenvolvimento</h3>
+
+                    <p>
+                        Construímos a solução utilizando tecnologias adequadas
+                        para cada projeto.
+                    </p>
+                </div>
+
+                <div class="etapa">
+                    <span>04</span>
+
+                    <h3>Entrega</h3>
+
+                    <p>
+                        Finalizamos o projeto e entregamos uma solução preparada
+                        para ser utilizada pela empresa.
+                    </p>
+                </div>
+
+            </div>
+
+        </section>
+
+        <section class="sobre" id="sobre">
+
+            <div class="sobre-conteudo">
+
+                <div class="sobre-texto">
+
+                    <h2>Sobre a NexTech</h2>
+
+                    <p>
+                        Somos uma empresa focada em soluções digitais para empresas
+                        que buscam melhorar seus processos, otimizar tarefas e crescer
+                        através da tecnologia.
+                    </p>
+
+                    <p>
+                        Desenvolvemos projetos pensando nas necessidades de cada negócio,
+                        buscando unir tecnologia, praticidade e uma experiência simples
+                        para quem utiliza nossas soluções.
+                    </p>
+
+                    <p>
+                        Nosso objetivo é tornar a tecnologia mais acessível para empresas
+                        que desejam modernizar sua presença digital e melhorar sua rotina.
+                    </p>
+
+                </div>
+
+                <div class="sobre-destaques">
+
+                    <div class="destaque">
+                        <strong>01</strong>
+                        <span>Soluções personalizadas</span>
+                    </div>
+
+                    <div class="destaque">
+                        <strong>02</strong>
+                        <span>Processos mais eficientes</span>
+                    </div>
+
+                    <div class="destaque">
+                        <strong>03</strong>
+                        <span>Tecnologia acessível</span>
+                    </div>
+
+                </div>
+
+            </div>
 
         </section>
 
@@ -82,13 +232,51 @@
             <form>
 
                 <label for="nome">Nome</label>
-                <input type="text" id="nome" name="nome">
+                <input 
+                    type="text" 
+                    id="nome" 
+                    name="nome" 
+                    placeholder="Digite seu nome"
+                    required
+                >
 
                 <label for="email">E-mail</label>
-                <input type="email" id="email" name="email">
+                <input 
+                    type="email" 
+                    id="email" 
+                    name="email" 
+                    placeholder="Digite seu e-mail"
+                    required
+                >
+
+                <label for="empresa">Empresa</label>
+                <input 
+                    type="text" 
+                    id="empresa" 
+                    name="empresa" 
+                    placeholder="Nome da sua empresa"
+                >
+
+                <label for="servico">Serviço de interesse</label>
+
+                <select id="servico" name="servico">
+
+                    <option value="">Selecione um serviço</option>
+                    <option value="sites">Desenvolvimento de Sites</option>
+                    <option value="automacao">Automação</option>
+                    <option value="sistemas">Sistemas</option>
+                    <option value="outro">Outro</option>
+
+                </select>
 
                 <label for="mensagem">Mensagem</label>
-                <textarea id="mensagem" name="mensagem"></textarea>
+
+                <textarea 
+                    id="mensagem" 
+                    name="mensagem" 
+                    placeholder="Conte um pouco sobre o que você precisa"
+                    required
+                ></textarea>
 
                 <button type="submit">Enviar mensagem</button>
 
@@ -99,7 +287,48 @@
     </main>
 
     <footer>
-        <p>&copy; 2026 NextTech</p>
+
+        <div class="footer-conteudo">
+
+            <div class="footer-empresa">
+
+                <h3>NexTech</h3>
+
+                <p>
+                    Soluções digitais para empresas que buscam crescer
+                    através da tecnologia.
+                </p>
+
+            </div>
+
+            <div class="footer-navegacao">
+
+                <h3>Navegação</h3>
+
+                <a href="#inicio">Início</a>
+                <a href="#servicos">Serviços</a>
+                <a href="#sobre">Sobre</a>
+                <a href="#contato">Contato</a>
+
+            </div>
+
+            <div class="footer-contato">
+
+                <h3>Contato</h3>
+
+                <p>E-mail: contato@nextech.com</p>
+                <p>Atendimento de segunda a sexta</p>
+
+            </div>
+
+        </div>
+
+        <div class="footer-copyright">
+
+            <p>© 2026 NexTech. Todos os direitos reservados.</p>
+
+        </div>
+
     </footer>
 </body>
 </html>
